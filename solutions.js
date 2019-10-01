@@ -20,3 +20,43 @@
  * and
  * concat
  */
+
+function isTrue(statement){
+    return statement === true;
+}
+
+function isFalse(statement){
+    return statement === false;
+}
+
+function not(statement){
+    return !statement;
+}
+
+function addOne(num){
+    return parseFloat(num) + 1;
+}
+
+function isEven(num){
+    return parseInt(num) % 2 == 0;
+}
+
+function isIdentical(obj1, obj2){
+    return obj1 === obj2;
+}
+
+function isEqual(obj1, obj2){
+    return obj1 == obj2;
+}
+
+function or(obj1, obj2){
+    return obj1 || obj2;
+}
+
+function and(obj1, obj2){
+    return obj1 && obj2;
+}
+
+function concat(obj1, obj2){
+    return "" + obj1 + obj2;
+}
